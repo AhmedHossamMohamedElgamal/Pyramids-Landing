@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>special design</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="icon-setting">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        
+        <div class="setting-content">
+            <div class="colors">
+                <h4>Colors</h4>
+                <ul>
+                    <li class="active" data-color="#be9b60"></li>
+                    <li data-color="#111"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#ff9800"></li>
+                </ul>
+            </div>
+            <div class="randombackground">
+                <h4>Random Background</h4>
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+            </div>
+           <div class="bullets">
+            <h4>Show Bullets</h4>
+            <button class="Yes active">Yes</button>
+            <button class="No">No</button>
+           </div>
+           <div class="reset-button">Reset Options</div>
+        </div>
+    </div>
+    <!-- end setting box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet"data-cat=".visits" >
+            <div class="tooltip">Visit</div>
+        </div>
+        <div class="bullet" data-cat=".article">
+            <div class="tooltip" >Article</div>
+        </div>
+        <div class="bullet"  data-cat=".explore">
+            <div class="tooltip">Explore</div>
+        </div>
+        <div class="bullet" data-cat=".galeries">
+            <div class="tooltip" >Galeries</div>
+        </div>
+    </div>
+
+    <!-- end nav bullets -->
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="container">
+            <div class="overlay">
+            </div>
+            <div class="header">
+                <div class="logo">GOTO<span>EGYPT</span></div>
+                <div class="links-content">
+                    <ul class="links">
+                        <li><a href="#" data-cat=".header">Home</a></li>
+                        <li><a href="" data-cat=".article">Article</a></li>
+                        <li><a href="" data-cat=".explore">Explore</a></li>
+                        <li><a href="" data-cat=".galeries">Galeries</a></li>
+                        <li><a href="" data-cat=".contact">Contact</a></li>
+                    </ul>
+                    <div class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+              
+            </div>
+         <div class="text">
+            <span>the ancient world </span>
+            <h1>Discover the last remaining of ancient egypt</h1>
+         </div>
+        </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about -->
+    <div class="article">
+        <div class="container">
+            <div class="box-info">
+                <h2>Article</h2>
+                <p>The pyramids of Giza 
+                    and the Great Sphinx are among the most popular tourist destinations in the world, and indeed already were even in Roman times. Each of these spectacular structures served as the final resting place of a king of the 4th Dynasty (c.2613–2494 BC). The Great Pyramid of Giza was built for king Khufu (c.2589–2566 BC), and the other two for Khafre and Menkaure, his son and grandson. Khufu’s pyramid is both the oldest and largest of the three,
+                     and the first building to exceed it in height would not be built for another 3,800 years!</p>
+            </div>
+            <div class="box-img">
+                <img src="imgs/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- end about -->
+    <!-- start visits -->
+    <div class="visits">
+        <div class="container">
+            <h2>Visiting</h2>
+            <div class="box">
+                <div class="progress-text"> Pyramid of Giza </div>
+                <div class="progress-box">
+                    <span data-width="80%"></span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="progress-text">Egyptian Museum </div>
+                <div class="progress-box">
+                    <span data-width="40%"></span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="progress-text"> Nile River Cruises</div>
+                <div class="progress-box">
+                    <span data-width="75%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end visits -->
+    <!-- start gallery -->
+    <div class="galeries">
+        <h2>Galeries</h2>
+        <div class="container">
+            <div class="box-img">
+                <img src="imgs/gal1.jpg" alt="">
+            </div>
+            <div class="box-img"><img src="imgs/gal2.jpg" alt="img-one"></div>
+            <div class="box-img"><img src="imgs/gal3.jpg_640x640.webp" alt="img-two"></div>
+            <div class="box-img"><img src="imgs/gal4.jpg" alt="img-three"></div>
+            <div class="box-img"><img src="imgs/gal5.webp" alt="img-four"></div>
+            <div class="box-img"><img src="imgs/gal6.webp" alt="img-five"></div>
+            <div class="box-img"><img src="imgs/gal7.jpg" alt=""></div>
+            <div class="box-img"><img src="imgs/image1.webp" alt=""></div>
+            <div class="box-img"><img src="imgs/image2.jpg" alt=""></div>
+            <div class="box-img"><img src="imgs/image3.jpg" alt=""></div>
+        </div>
+    </div>
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="box-content">
+                <div class="year">
+                    2024
+                </div>
+                <div class="box-left box">
+                    <h3>testing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat sequi tempora perspiciatis aspernatur ducimus id assumenda. Odio, perferendis delectus optio autem sint eius expedita qui consequuntur, animi, repellendus provident.</p>
+                </div>
+                <p class="clear"></p>
+                <div class="box-right box">
+                    <h3>testing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat sequi tempora perspiciatis aspernatur ducimus id assumenda. Odio, perferendis delectus optio autem sint eius expedita qui consequuntur, animi, repellendus provident.</p>
+                </div>
+                <p class="clear"></p>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start explore -->
+    <div class="explore">
+        <h2>Explore Pyramid of Giza</h2>
+        <div class="container">
+            <div class="box-explore">
+                <img src="imgs/explore1.jpg" alt="">
+                <div class="text">
+                    <h3>Pyramid of Khufu</h3>
+                    <p>The Great Pyramid of Giza, the sole survivor of the Seven Wonders, is Pharaoh Khufu's 2600 BCE tomb, towering at 137 meters.
+                        Access Included: Yes</p>
+                </div>
+            
+            </div>
+            <div class="box-explore">
+                <img src="imgs/explore2.jpg" alt="">
+                <div class="text">
+                    <h3>Pyramid of Khafre</h3>
+                    <p>The Pyramid of Khafre, slightly smaller at 136 meters, was built for Pharaoh Khafre in 2570 BC.
+                        Access Included: Yes</p>
+                </div>
+              
+            </div>
+            <div class="box-explore">
+                <img src="imgs/explore3.jpg" alt="">
+                <div class="text">
+                    <h3>Pyramid of Menkaure</h3>
+                    <p>The Pyramid of Menkaure, Giza's smallest at 62 meters, was built around 2510 BC.
+                        Access Included: Yes</p>
+                </div>
+              
+            </div>
+            <div class="box-explore">
+                <img src="imgs/explore4.jpg" alt="">
+                <div class="text">
+                    <h3>Sphinx of Giza</h3>
+                    <p>The Great Sphinx, a colossal statue with a human head and lion body, guards the unfinished Sphinx temple with outstretched paws.
+                        Access Included: Yes</p>
+                </div>
+       
+            </div>
+
+
+            <div class="box-explore">
+                <img src="imgs/explore5.jpg" alt="">
+                <div class="text">
+                    <h3>Giza Necropolis</h3>
+                    <p>Around the three main Pyramids of Giza, smaller pyramids for pharaohs' queens like Seshemnufer IV and Khentkaus I are accompanied by temples.
+                        Access Included: Yes</p>
+                </div>
+       
+            </div>
+            <div class="box-explore">
+                <img src="imgs/explore6.webp" alt="">
+                <div class="text">
+                    <h3>Burial Chambers</h3>
+                    <p>The Great Pyramid houses three burial chambers accessible through the "Robbers' Tunnel." Inside, the Grand Gallery leads to the Queen's Chamber, the King's Chamber, and the Subterranean Chamber.
+                        Access Included: Yes</p>
+                </div>
+       
+            </div>
+        </div>
+    </div>
+    <!-- end explore -->
+    <!-- start contact -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <div class="contianer">
+            <form action="">
+                <div class="left">
+                    <input type="text" name="username" placeholder="Your Name" id="">
+                    <input type="text" name="phone" placeholder="Your Phone" id="">
+                    <input type="text" name="email" placeholder="Your Email" id="">
+                    <input type="text" name="subject" placeholder="Subject" id="">
+                </div>
+                <div class="right">
+                    <textarea name=""placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer">
+        <p>created by &copy; <span class="name">Ahmed Hossam</span> <span class="year"></span></p>
+    </div>
+    <!-- end footer -->
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
